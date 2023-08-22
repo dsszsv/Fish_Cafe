@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Fish Café</title>
+</head>
+<body>
+    <header>
+        <img src="./resources/fish_cafe_logo.png" alt="Fish Café">
+        <nav>
+            <h1>Menu</h1>
+            <h1>Fazer o pedido</h1>
+        </nav>
+    </header>
+    <section class="menu">
+        <article class="item-menu">
+            <img src="./resources/Drowned.jpg" alt="Drowned" width="80%">
+            <h3>1 - Drowned</h3>
+            <p>A wonderfull brazilian expresso with a touch of the sea...</p>
+        </article>
+        <article class="item-menu">
+            <img src="./resources/salmon special.jpg" alt="Salmon Special" width="80%">
+            <h3>2 - Salmon Special</h3>
+            <p>A wonderfull brazilian expresso with a touch of the sea...</p>
+        </article>
+        <article class="item-menu">
+            <img src="./resources/fish blend.jpg" alt="Blend from the Deep" width="80%">
+            <h3>3 - Blend from the Deep</h3>
+            <p>A wonderfull brazilian expresso with a touch of the sea...</p>
+        </article>
+    </section>
+
+    <section class="form">
+        <h2>Hora de fazer o pedido!</h2>
+        <label for="cafe">Escolha qual o café você vai querer: </label>
+        <select name="cafes" id="cafe">
+            <option value="0">--selecione--</option>
+            <option value="1">1 - Drowned</option>
+            <option value="2">2 - Salmon Special</option>
+            <option value="3">3 - Blend from the Deep</option>
+        </select>
+        <fieldset>
+            <legend>Escolhas acrescimos: </legend>
+            <input type="checkbox" name="peixe+" id="peixe+">
+            <label for="peixe+">Mais peixe! (sempre bom né)</label>
+            <input type="checkbox" name="creme" id="creme">
+            <label for="creme">Creme aerado por cima (hummm)</label>
+            <input type="checkbox" name="agua_gas" id="agua_gas">
+            <label for="agua_gas">Agua com gás</label>
+        </fieldset>
+        <label for="extra_special">Quer que acrescente algo à mais? </label>
+        <textarea name="extra_special" id="extra_special" cols="30" rows="10"></textarea>
+        <input type="submit" name="Ir para o Checkout" >
+        
+
+    </section>
+
+    <footer><p>Feito com amor pelo @KPTA</p></footer>
+    
+</body>
+</html>
